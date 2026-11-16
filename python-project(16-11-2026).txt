@@ -1,0 +1,16 @@
+player1=str(input("enter player1 symbol:"))
+player2=str(input("enter player2 symbol:"))
+if player1==player2:
+    print("Draw")
+elif player1=="rock" and player2=="paper":
+    print("player 2 wins")
+elif player1=="paper" and player2=="rock":
+    print("player 1 wins")
+elif player1=="rock" and player2=="scissors":
+    print("player 1 wins")
+elif player1=="scissors" and player2=="rock":
+    print("player 2 wins")
+elif player1=="scissors" and player2=="paper":
+    print("player 1 wins")
+elif player1=="paper" and player2=="scissors":
+    print("player 2 wins")
